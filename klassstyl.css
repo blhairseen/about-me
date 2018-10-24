@@ -1,0 +1,114 @@
+body{
+	background: #C0c0c0;
+}
+.header{
+	text-align: center;
+	font-family: sans-serif, verdana, arial;
+	font-weight: bolder;
+}
+/*Create a horizontal list with spacing*/
+li {
+	display: inline-block;
+	float: left;
+	margin: 1px;
+}
+li a{
+	display: block;
+	min-width: 150px;
+	max-width: 250px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	font-family: Helvetica, arial;
+	color: #fff;
+	background: #2f3036;
+	text-decoration: inherit;
+}
+/*hover state for top level links*/
+li:hover a{
+	background: pink; 
+	color: #000000;
+}
+#pic1{
+	height: 380px;
+	width: 270px;
+	border-radius: 8px;
+}
+.wrapper{
+	display: grid;
+	grid-template-columns: 35% 32% 30%;
+	grid-column-gap: 1em;
+	grid-row-gap: 1em; 
+}
+.wrapper h2{
+	position: absolute;
+	z-index: 1;
+	color: #000;
+	top: 50%;
+	margin-left: 5%; 
+	opacity: 0;
+}
+.wrap {
+	height: 380px;
+	width: 270px;
+}
+.wrap:hover img{
+	filter: blur(3px) brightness(40%);
+	transition: .2s ease-in-out;
+}
+.wrap:hover h2{
+	opacity: 1;
+	transition: .3s ease-in-out;
+}
+
+.wrapp {
+	height: 250px;
+	width: 200px;
+	margin: auto;
+	position: relative;
+}
+.links {
+	text-decoration: none;
+	font-weight: bolder;
+	color: #ffffff;
+}
+.links:hover {
+	color: #000078;
+	text-decoration: underline;
+}
+.tbl {
+	position: relative;
+	margin: 30px auto;
+	left: 35%;
+	}
+.leisure {
+	text-align: center;	
+}
+.tins li{
+	list-style: none;
+	font-weight: bold;
+	font-size: 20px;
+	margin: 15px;
+	display: list-item;
+	float: inherit;
+	color: #b12cb8;
+}
+.tins img{
+	height: 200px; 
+	width: 250px;
+	border-radius: 8px;
+}
+.sch {
+	height: 500px;
+	width: 550px;
+	left: 30%;
+	position: relative;
+}
+.sch img {
+	height: 300px;
+	width: 450px;
+}
+.footer {
+	bottom: 0;
+	position: relative;
+}
